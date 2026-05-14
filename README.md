@@ -12,7 +12,7 @@ TODO:
 
 esse projeto è amarado pela licença [MIT](./LICENSE)
 
-## O que serà? 
+## O que será? 
 o Viajei serà uma plataforma em que os usuarios poderâo, individualmente, compartilhar suas esperiencias, e tambem, recomendar outras tantas para pessoas que acessam essa plataforma. 
 
 > ![IMPORTANT]
