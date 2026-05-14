@@ -3,7 +3,10 @@ o objetivo do projeto *viajei* é, através é, compartilhar das experiências q
 
 o *viajei*, por razãoes apropriadas,é indicadon para maiores de 14 (quatorze) anos.
 
+## como rodoar:
 
+TODO:
 
+## Licença 
 
-
+esse projeto è amarado pela licença [MIT](./LICENSE)
