@@ -10,3 +10,16 @@ TODO:
 ## Licença 
 
 esse projeto è amarado pela licença [MIT](./LICENSE)
+
+## O QUE È? 
+o viajei serà uma plataforma digital; em que as pesoas podem compaertilhar suas experiencias em formato de texto e deixar suas recomendaçôes paRA outras pessoas.
+
+## tecnologia: 
+
+- FRONT -END:
+- HTML; 
+- javascript (?)
+- BACK-END: 
+- python ou node ou PHP;
+
+## Como rodar:
