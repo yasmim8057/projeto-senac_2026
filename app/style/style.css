@@ -1,0 +1,16 @@
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(197, 84%, 41%, 0.212);
+
+}
+
+header img {
+    max-height: 80%;
+    margin: auto 0; 
+
+
+}
