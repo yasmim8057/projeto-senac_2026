@@ -16,6 +16,7 @@ body {
     width: 80vw;
     margin: 0 auto;
     background-color: #fafafa;
+
 }
 
 header {
@@ -46,3 +47,6 @@ header img {
 .link-do-cabecalho:hover {
     background-color: blue;
 }
+
+
+    
