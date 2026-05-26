@@ -1,6 +1,7 @@
 * {
     /*seletor universal*/
     box-sizing: border-box;
+    color:#fafafa;
 }
 
 body {
@@ -25,6 +26,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: sticky;
+    background-color: #0d418d;
 }
 
 header img {

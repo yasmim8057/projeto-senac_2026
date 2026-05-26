@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajei: Sobre</title>
+  <link rel="stylesheet" href="./style/form.css">
+  <script src="./scripts/form.js" defer></script>
 </head>
+
 <body>
-    
+  <div id="container">
+    <header>
+      <nav>
+        <img src="./images/logo.png"
+          alt="Uma imagem de um barco a vela, somente com traços em tons marrons. O barco está de com a proa virada para o lado direito" />
+        <div class="toggle"></div>
+        <a class="link-do-cabecalho" href="./index.html">Viajei</a>
+        <a class="link-do-cabecalho" href="./about.html">Sobre</a>
+        <a class="link-do-cabecalho" href="./form.html">Fofoca?!</a>
+      </nav>
+    </header>
+
+    <main>
+      <form id="post-form">
+        <label for="autor"> Autor: </label>
+        <input id="autor" type="text" name="autor" placeholder="João da Silva">
+
+        <label for="titulo"> Título da história: </label>
+        <input id="titulo" type="text" name="titulo" placeholder="A vida é carnaval">
+      
+        <label for="historia"> História: </label>
+        <textarea id="historia" cols="50" rows="20" placeholder="Minha vida, nem sempre foi festa, mas coração sempre foi carnaval...">
+        </textarea>
+
+        <button type="submit"> Enviar </button>
+          
+      </form>
+    </main>
+
+    <footer>
+      <div id="historias">
+        
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
-
-<form action="submit"
- <label for="titulo">nome:</label>  
-<input type="text"id="usuario" name="nome"
-
-<label for="email">Email:</label>
-<input type="email" id="email" name="email"
-
-<label for="historia">historia</label>
-<textarea name="historia" id="historia" cols="30" rows="10"
-
