@@ -26,7 +26,7 @@ body {
 }
 
 #container nav img {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 #container nav .toggle {
@@ -44,8 +44,22 @@ body {
     font-weight: bold;
     font-size: 20pt;
 }
+ form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 80%;
+ }
 
-
+ form textarea, form input {
+    width: 100%;
+    outline: nome;
+    border-radius: 2px;
+    border: nome; 
+    
+ }
 @media (max-width: 600px) {
     /*Media query para ajustar o cabeçalho em aparelhos móveis */
 

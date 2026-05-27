@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viajei: Sobre</title>
   <link rel="stylesheet" href="./style/form.css">
-  <script src="./scripts/form.js" defer></script>
+  <script type="module" src="./scripts/form.js"></script>
 </head>
 
 <body>
@@ -24,24 +24,32 @@
 
     <main>
       <form id="post-form">
-        <label for="autor"> Autor: </label>
-        <input id="autor" type="text" name="autor" placeholder="João da Silva">
+        <label for="autor"> Autor (ex: Yasmim rodrigues): </label>
+        <input id="autor" type="text" name="autor" placeholder="Yasmim rodrigues">
 
         <label for="titulo"> Título da história: </label>
         <input id="titulo" type="text" name="titulo" placeholder="A vida é carnaval">
-      
-        <label for="historia"> História: </label>
-        <textarea id="historia" cols="50" rows="20" placeholder="Minha vida, nem sempre foi festa, mas coração sempre foi carnaval...">
-        </textarea>
+
+        <label for="email"> Email: </label>
+        <input id="email" type="email" name="email" placeholder="yasmim.rodrigues040609@gmail.com">
+        
+        <label for="historia">Historia: </label>
+        <textarea id="história" cols="50" rows="20" name="historia"
+          placeholder="Minha vida, nem sempre foi festa, mas coração sempre foi carnaval..."></textarea>
 
         <button type="submit"> Enviar </button>
-          
+
       </form>
     </main>
 
+    <dialog id="modal">
+      <button autofocus>Fechar</button>
+      <div id="modal-content"></div>
+    </dialog>
+
     <footer>
       <div id="historias">
-        
+
       </div>
     </footer>
   </div>

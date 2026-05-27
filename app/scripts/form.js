@@ -1,32 +1,38 @@
-const form = documentos.getElementById ('post-form');
+import { openStoryModal } from "./modal.js"
 
-form.addventListener('submit', function(event) {
+const form = document.getElementById('post-form');
 
-    event.preventDefault()
+form.addEventListener('submit', function(event) {
 
-    const form_data = new FormData(event.target)
+        event.preventDefault();
 
-    const autor = form_data.get('autor')
-    const titulo = form_data.get('titulo')
-    const email = form_data.get('email')
-    const historia = form_data.get('historia')
+        const form_data = new FormData(event.target)
 
-    if (!autor || !historia) { //verificação de campos vazios
-        alert("os campos Autor e Historia são obrigatórios!")
-        return
+        const autor = form_data.get('autor')
+        const titulo = form_data.get('titulo')
+        const email = form_data.get('email')
+        const historia = form_data.get('historia')
 
-    }
-    const article = document.createElement('article')
-    article.className = "artigo";
-    
-    article.innerHTML = 
-    <h3>${titulo}</h3>
-    <P><strong> Autor: ${autor} </strong></P>
-    <P><small> Email: ${email} </small></P>
-    <P>${historia.replace('/\n/g', '<br />')}</P>
-    <hr />';
+        if (!autor || !historia) { //verificação de campos vazios
+                alert("Os campos `Autor` e `História` são obrigatórios!")
+                return
+        }
 
-    document.getElementtById('historia').appedchild(article)
+        const article = document.createElement('article');
+        article.className = "artigo";
 
-    event.target.resert()
+        article.innerHTML =
+                `<h3>${titulo}</h3>
+                <p><strong> Autor: ${autor} </strong></p>
+                <p><small> Email: ${email} </small></p>
+                <p>${historia.replace('/\n/g', '<br />')}</p>
+                <hr />`;
+
+        article.addEventListener('click', function() {
+                openStoryModal(titulo, autor, historia);
+        })
+
+        document.getElementById('historias').appendChild(article)
+
+        event.target.reset()
 })
