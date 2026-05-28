@@ -83,7 +83,16 @@ body {
         margin-top: -10px;
         margin-right: 10px;
     }
-
+  
+    main #historia article.artigo {
+         box-shadow: 10px 5px 5px #5e594e;
+         border: 1px solid #5e594e;
+         overflow: hidden;
+         white-space: nowrap;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 4;
+         display: -webkit-box;
+    }
 
     #container nav a {
         display: none;
