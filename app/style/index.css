@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(89 162 195);
+    background-color: #0d778a;
     
 }
 
@@ -37,10 +37,10 @@ header img {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     text-decoration: nome;
-    color: white;
+    color: black;
     font-size: 12pt;
     padding: 10px 20px;
-    background-color: rgb(99, 182, 224);
+
     border-radius: 15px;
     /* especifica a "grossura" da letra */
 }
@@ -53,7 +53,7 @@ header img {
 #container section {
     width: 100%;
     height: 80vh;
-    background-image: url(../images/philipp-hubert-ZCexKfnqDdw-unsplash.jpg);
+background-color:#0d778a; ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -62,17 +62,11 @@ header img {
 
 
 h1 {
-    font-family: fantasy;
-    font-size: 48pt;
+    font-family: fsy;
+    font-size: 27pt;
     padding: 20px;
-    box-shadow: 5px 5px 5px 5px blue;
     margin-top: 0;
 
-}
-
-h1:hover {
-    box-shadow: 5px 5px 5px 5px pink;
-    transition: box-shadow .2s;
 
 }
 
