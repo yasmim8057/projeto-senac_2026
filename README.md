@@ -1,11 +1,6 @@
 # viajei
 o objetivo do projeto *viajei* é, através é, compartilhar das experiências que vivemos, para que outras pessoas também possam usufruir da mesma experiências. Essas experiências podem ser sobre qualquer tema (livros,series,filmes,cozinhar,esportes,viagens...)  
-
-> [!WARNING]
-> o *viajei*, por razãoes apropriadas,é indicadon para maiores de 14 (quatorze) anos. **NAO RECOMENDO** qwue as pessoas com idade menor do indicado, tenham acesso a plataforma.
- 
-## como rodoar:
-
+                                                            
 TODO:
 
 ## Licença 
