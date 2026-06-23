@@ -1,5 +1,4 @@
 class Animal:
 
     def emitir_somm(self):
-        return 'som genérico'
-    
+        return 'som genérico'        '' \''                                                                                                                                                                                                                                                                                                                                                                                                                                      

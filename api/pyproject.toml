@@ -52,4 +52,4 @@ dev = [
  run = 'fastapi dev viajei_api/app.py'
  pre_test = 'task lint'
  test =pytest -s -x -vx 
- post_test = 'coverage ht
+ post_test = 'coverage html --show-contexts'
