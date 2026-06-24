@@ -10,4 +10,5 @@ app = FastAPI()
 def read_root():
     return {'message': 'Olá mundo!'}
 
-
+@app.post('/auth/', status_code=HTTPStatus.CREATED)
+def login():
