@@ -23,3 +23,9 @@ def session():
         table_registry.metadata.drop_all(engine)
         engine.dispose()
         
+        @pytest.fixture 
+        def user(session):
+            user = user(
+                email ="example@example.com", 
+                                                                                                                                                                                                                                                                                                                                                                               
+            )

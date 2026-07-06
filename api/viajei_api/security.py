@@ -17,4 +17,9 @@ def create_token(dados: dict):
     )
    
    para_codificar.update({'exp': expira})
+   jwt_codificado = encode(para_codificar,
+   CHAVE_SECRETA, 
+   algoritm=ALGORITHM
+)
    
+   return jwt_codificado
